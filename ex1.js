@@ -17,11 +17,9 @@ let senha = prompt("Digite a senha: ")
 
 if (username == "admin" && senha == "senha123") {
     console.log("Login bem sucedido" );
+}   
 
-
-
-
-}    else {
+else {
         console.log ("Você não tem permissão para esta aqui")
     }
 
