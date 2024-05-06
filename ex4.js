@@ -27,9 +27,21 @@ console.log("nota historia: " + historia)
 let ciencia = parseFloat(prompt("nota de ciencia do aluno " + nomeAluno))
 console.log("nota ciencias: " + ciencia)
 
-let total = matematica + portugues + historia + ciencia
 
-let media = console.log(total / 4)
+
+let total = (matematica + portugues + historia + ciencia)
+let media = (total / 4)
+
+
+
+if (media >= 7 ) {
+    console.log("aprovado");
+}   else if ( media >= 5 ) {
+        console.log ("recuperação");
+}   else  {
+            console.log ("reprovado")
+}
+        
 
 
 
