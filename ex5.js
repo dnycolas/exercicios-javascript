@@ -11,9 +11,9 @@ let num2 = parseFloat(prompt("escolha o segundo numero"))
 
 let num3 = parseFloat(prompt("escolha o terceiro numero"))
 
-if (num1 < num3) {
+if (num1 < num2 && num2 < num3) {
     console.log("ordem crescente")
-} else if (num3 < num1) {
+} else if (num3 < num2 && num2 < num1) {
     console.log("ordem decrescente")
 }
 

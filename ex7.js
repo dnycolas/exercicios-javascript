@@ -8,10 +8,10 @@
 // Valor total da compra acima de R$ 200,00: desconto de 20%.
 // Exiba o valor final da compra com o desconto aplicado.
 
-let ValorCompra = prompt("qual o valor da compra ?")
+let ValorCompra = parseFloat(prompt("qual o valor da compra ?"))
 
 if (ValorCompra > 200) {
-    console.log("R$:" + (ValorCompra - (ValorCompra * 0.2)))
+    console.log("R$:" + (ValorCompra - (ValorCompra * 0.2)).toFixed(2))
 }
 else if (ValorCompra > 100) {
     console.log("R$:" + (ValorCompra - (ValorCompra * 0.1)))

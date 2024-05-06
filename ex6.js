@@ -5,6 +5,8 @@
 
 let AnoNascimento = prompt("Ano do seu nascimento")
 
+
+// let AnoAtual = new Date().getFullYear();
 const Data = new Date ();
 const AnoAtual =  Data.getFullYear();
 
