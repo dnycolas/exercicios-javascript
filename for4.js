@@ -5,6 +5,11 @@
 
 let num = parseFloat(prompt("escolha um numero de 1 à 10"))
 
-for (let mult = num; mult <= 10; mult+=num) {
-    console.log(mult);
+ if (!isNaN(num)){
+
+for (let mult = 1; mult <= 10; mult++) {
+    console.log(mult*num);
+}
+}else{
+    console.log("Número invalido")
 }

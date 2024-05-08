@@ -10,7 +10,7 @@ let c = 1
 
 
 
-for (let cont = 0; cont <= 10; cont++) {
+for (let cont = 0; cont <= 9; cont++) {
     console.log(a)
     c = b + a
     a = b 

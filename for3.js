@@ -1,17 +1,12 @@
 // 3. Faça um programa que imprima os números ímpares de 0 a 50;
 
-let contador = 0
-
-console.log(contador)
-
-for (contador = 1; contador <= 50; contador+=2) {
-    console.log(contador);
-}  
-
-contador = 50
-
-console.log(contador)
-
-// for (contador = 49; contador <= 50; contador++){
-//     console.log(contador)
+// for (let num = 1; num <=  50; num++) {
+//     if (num % 2 == 1) {
+//         console.log(num)
+//     }    
 // }
+
+for (let contador = 1; contador <= 50; contador+=2) {
+    console.log(contador);
+} 
+
