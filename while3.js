@@ -3,13 +3,25 @@
 // idade e mostre uma mensagem quando a idade do usuário for
 // maior que 18.
 
-let idade = parseInt(prompt("qual a sua idade ?"))
+let idade = parseInt(prompt("Digite sua idade: "));
+
+while (idade < 18) {
+    idade = parseInt(prompt("idade invalida, por favor digite uma idade valida"))
+}
+
+console.log("bem vindo, você tem " + idade + " anos, certo?")
 
 
-while (idade <= 18) {
-    let idd = parseInt(prompt("idade invalida"))
-    idade = idd
-}
-if (idade >= 18) {
-    console.log("bem vindo!")      
-}
+
+
+
+// let idade = parseInt(prompt("qual a sua idade ?"))
+
+
+// while (idade < 18) {
+//     let iddm = parseInt(prompt("idade invalida"))
+//     idade = iddm
+// }
+// if (idade >= 18) {
+//     console.log("bem vindo!")      
+// }
